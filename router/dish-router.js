@@ -5,7 +5,7 @@ const express = require('express')
 const router = express.Router();
 
 // bring in model
-const DataModel = require('../dataModel/data-model');
+const DataModel = require('../dataModel/dish-model');
 
 // GET all dishes
 router.get('/', async (req, res) => {
